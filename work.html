@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Selected work by Ethan Schreiber — internal platforms, API decoupling, and operational remediation at First Tech Federal Credit Union, GreenFi, and others." />
+  <title>Work — Ethan Schreiber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="row">
+      <div><span class="dot"></span>Ethan Schreiber</div>
+      <div>Product · Platforms · APIs</div>
+      <div>Austin, TX</div>
+    </div>
+  </div>
+</div>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <div class="row">
+      <a href="/" class="logo">Ethan Schreiber<span class="dot">.</span></a>
+      <ul>
+        <li class="active"><a href="/work.html">Work</a></li>
+        <li><a href="/projects.html">Personal Projects</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="row">
+      <div class="num">§ Work</div>
+      <div>
+        <h1>Work</h1>
+        <p class="lede">Platforms, APIs, and integrations — current and recent.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="surface-tea">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">§ 01 · Current</div>
+      <div class="sec-title">
+        <h2>First Tech Federal Credit Union</h2>
+        <p>Senior Technical Product Manager · October 2023 – Present. Internal platforms and integrations across Fiserv, Mastercard, Alkami, Velera, and OSG.</p>
+      </div>
+    </div>
+
+    <div class="case-grid">
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">API Strategy</span>
+          <span class="tag">Versioning</span>
+        </div>
+        <h3>Decoupling legacy APIs</h3>
+        <p>Led decoupling of legacy APIs serving both customer-facing and agent-facing use cases. Identified which capabilities were safe to expose externally (read-only account data) versus internal-only (account closure, sensitive write actions), then drove versioning and rollout sequencing so internal tools could update independently of external surfaces.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">Performance</span>
+          <span class="tag">Business Case</span>
+        </div>
+        <h3>20,000 hours of internal time recovered</h3>
+        <p>Investigated systemic API performance issues — over-fetching, redundant calls, sequential requests, unoptimized database queries. Quantified the impact, built the business case, secured leadership prioritization, and currently lead remediation as a top organizational priority.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">Write APIs</span>
+          <span class="tag">Vendor Orchestration</span>
+        </div>
+        <h3>Member-servicing write APIs</h3>
+        <p>Defined product requirements for write-heavy APIs orchestrating member actions — account closures, card issuance, dispute handling, password and lockout resets, document retrieval — across Fiserv, Alkami, Velera, Mastercard, and OSG. Coordinated delivery across onshore, offshore low-code, and external vendor engineering teams. Auth model uses trusted-source IP allowlisting, token-based authentication, and rate limiting as defense in depth.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">AI · Agents</span>
+          <span class="tag">Build vs Buy</span>
+        </div>
+        <h3>Internal AI agent, 1,000+ daily questions</h3>
+        <p>Product vision and rollout for an internal AI agent (Pega Knowledge Buddy) handling 1,000+ daily questions from CX agents. Built the business case, made the build-vs-buy recommendation, and drove adoption. Saves roughly 1,200 hours per year.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">Delivery</span>
+          <span class="tag">Enterprise Priority</span>
+        </div>
+        <h3>Simplification — 51 features in 2025</h3>
+        <p>Led Simplification, a top enterprise priority communicated regularly by the CEO. Delivered 51 features across the year — matching the total output of the rest of the PM department combined.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">Operations</span>
+          <span class="tag">On-call</span>
+        </div>
+        <h3>Production incident response</h3>
+        <p>On-call experience firefighting production incidents at the layer where outages can mean a member can't access their funds.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="surface-soft">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">§ 02 · Earlier</div>
+      <div class="sec-title">
+        <h2>Prior roles</h2>
+        <p>Fintech operations, integration work, and customer-facing roles before product.</p>
+      </div>
+    </div>
+
+    <div class="line-list">
+      <div class="line-item">
+        <div>
+          <div class="org">GreenFi <span style="color:var(--stone);font-size:14px;">(formerly Aspiration Financial)</span></div>
+          <span class="role">Technical Program Manager</span>
+        </div>
+        <div class="summary">Led integration with Galileo's core banking APIs to automate card replacement — now processing tens of thousands of cards per year. Shipped 14 features across internal operations and customer-facing tools, exceeding efficiency-gain projections by 55% on the most recent. Negotiated a standing 15% engineering allocation for technical debt in a regulated fintech environment.</div>
+        <div class="when">Jan 2022 –<br/>Oct 2023</div>
+      </div>
+
+      <div class="line-item">
+        <div>
+          <div class="org">GreenFi</div>
+          <span class="role">Customer Engagement Manager</span>
+        </div>
+        <div class="summary">Led an operations team of up to 40 during a period of crisis, increasing per-agent output by 68% through targeted coaching and identification of product gaps fed back into the roadmap. Detected two fraud attacks before the dedicated fraud team — a retrospective estimated this prevented millions in losses.</div>
+        <div class="when">Oct 2020 –<br/>Jan 2022</div>
+      </div>
+
+      <div class="line-item">
+        <div>
+          <div class="org">GreenFi</div>
+          <span class="role">CX Team Lead &amp; Representative</span>
+        </div>
+        <div class="summary">Developed <em>Impact Facts</em>, a CX differentiator that drove a 10% lift in sales and retention.</div>
+        <div class="when">Feb 2019 –<br/>Oct 2020</div>
+      </div>
+
+      <div class="line-item">
+        <div>
+          <div class="org">Liberty Mutual Insurance</div>
+          <span class="role">Claims Resolution Specialist II</span>
+        </div>
+        <div class="summary">Licensed insurance adjuster across 35+ states. Negotiated $100K+ in annual vendor cost savings.</div>
+        <div class="when">Nov 2016 –<br/>Apr 2018</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="seal">— ethanjschreiber.com —</div>
+    <div class="row">
+      <div>Austin, TX</div>
+      <div><a href="mailto:ethanschreiber@gmail.com">ethanschreiber@gmail.com</a></div>
+      <div><a href="https://www.linkedin.com/in/ethanjamesschreiber/" target="_blank" rel="noopener">LinkedIn</a></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
