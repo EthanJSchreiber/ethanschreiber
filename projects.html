@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal projects by Ethan Schreiber — Choicescout, a multi-agent content system, and other independent work." />
+  <meta name="description" content="Personal projects by Ethan Schreiber — Choicescout, an AI content system, and other independent work." />
   <title>Personal Projects — Ethan Schreiber</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,14 +55,14 @@
       <div class="sec-num">§ 01</div>
       <div class="sec-title">
         <h2>Choicescout</h2>
-        <p>A multi-agent content system I built. Specialized agents (book, tech, fitness) researched, wrote, and published affiliate reviews.</p>
+        <p>An AI content system I built and ran. Specialized agents — books, tech, fitness — researched, wrote, and published affiliate product reviews.</p>
       </div>
     </div>
 
     <div class="feature-project">
       <div>
         <div class="lead">
-          Multi-agent system for affiliate content — built around the kind of scaffolding an LLM can't reliably enforce on its own.
+          AI wrote the content. Conventional code enforced the rules the AI couldn't be trusted to follow on its own.
         </div>
         <div class="meta-row">
           <div>
@@ -84,9 +84,9 @@
         </div>
       </div>
       <div class="body">
-        <p>A Node.js scaffold handled the parts the LLMs weren't reliable at on their own — schema enforcement, retries, and error reporting routed back to a Discord channel for monitoring.</p>
-        <p>The hybrid Claude/Gemini pipeline brought article cost to roughly $0.50, against $2.50 for Opus alone — a five-fold reduction that made the economics work.</p>
-        <p>About 95% of traffic came from LLM researchers rather than traditional SEO, so the content was effectively being read by other agents.</p>
+        <p>A Node.js layer handled what the AI couldn't reliably do itself: enforcing output formats, retrying failures, and reporting errors to a Discord channel I monitored.</p>
+        <p>Splitting the work between Claude and Gemini brought the cost per article to roughly $0.50, down from $2.50 using the most capable model alone — the difference that made the economics work.</p>
+        <p>About 95% of traffic came from AI assistants researching products on behalf of their users, not from people arriving through Google — the content was effectively written for other AIs.</p>
       </div>
     </div>
 

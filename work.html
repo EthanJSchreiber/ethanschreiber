@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Selected work by Ethan Schreiber — internal platforms, API decoupling, and operational remediation at First Tech Federal Credit Union, GreenFi, and others." />
+  <meta name="description" content="Selected work by Ethan Schreiber — internal platforms, API decoupling, and customer-service tooling at First Tech Federal Credit Union, GreenFi, and others." />
   <title>Work — Ethan Schreiber</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,16 +66,25 @@
           <span class="tag">Versioning</span>
         </div>
         <h3>Decoupling legacy APIs</h3>
-        <p>Led decoupling of legacy APIs serving both customer-facing and agent-facing use cases. Identified which capabilities were safe to expose externally (read-only account data) versus internal-only (account closure, sensitive write actions), then drove versioning and rollout sequencing so internal tools could update independently of external surfaces.</p>
+        <p>Led decoupling of legacy APIs serving both member-facing and employee-facing use cases. Identified which capabilities were safe to expose externally (read-only account data) versus internal-only (account closure, sensitive write actions), then set the versioning and rollout sequence so internal tools could ship independently of member-facing surfaces.</p>
+      </article>
+
+      <article class="case-card">
+        <div class="tag-row">
+          <span class="tag">Tool Architecture</span>
+          <span class="tag">Business Case</span>
+        </div>
+        <h3>20,000 hours of internal time recovered</h3>
+        <p>Traced the loss to how the customer-service tools were built: manual handoffs, redundant approvals, and missing integrations. Quantified the cost, built the business case, and now lead the redesign as a top organizational priority — automating handoffs, connecting card processing and core banking directly, and simplifying the screens reps work in.</p>
       </article>
 
       <article class="case-card">
         <div class="tag-row">
           <span class="tag">Performance</span>
-          <span class="tag">Business Case</span>
+          <span class="tag">APIs</span>
         </div>
-        <h3>20,000 hours of internal time recovered</h3>
-        <p>Investigated systemic API performance issues — over-fetching, redundant calls, sequential requests, unoptimized database queries. Quantified the impact, built the business case, secured leadership prioritization, and currently lead remediation as a top organizational priority.</p>
+        <h3>API performance remediation</h3>
+        <p>Alongside the tooling redesign, investigated why core internal APIs were slow — over-fetching, redundant calls, sequential requests, unoptimized database queries. Quantified the impact and secured leadership prioritization for the fixes.</p>
       </article>
 
       <article class="case-card">
@@ -84,7 +93,7 @@
           <span class="tag">Vendor Orchestration</span>
         </div>
         <h3>Member-servicing write APIs</h3>
-        <p>Defined product requirements for write-heavy APIs orchestrating member actions — account closures, card issuance, dispute handling, password and lockout resets, document retrieval — across Fiserv, Alkami, Velera, Mastercard, and OSG. Coordinated delivery across onshore, offshore low-code, and external vendor engineering teams. Auth model uses trusted-source IP allowlisting, token-based authentication, and rate limiting as defense in depth.</p>
+        <p>Defined requirements for the write APIs employees use to act on a member's behalf — closing accounts, issuing cards, handling disputes, resetting passwords and lockouts, retrieving documents — across Fiserv, Alkami, Velera, Mastercard, and OSG. Coordinated delivery across onshore, offshore low-code, and vendor engineering teams. Security is layered: trusted-source IP allowlisting, token-based authentication, and rate limiting.</p>
       </article>
 
       <article class="case-card">
@@ -93,7 +102,7 @@
           <span class="tag">Build vs Buy</span>
         </div>
         <h3>Internal AI agent, 1,000+ daily questions</h3>
-        <p>Product vision and rollout for an internal AI agent (Pega Knowledge Buddy) handling 1,000+ daily questions from CX agents. Built the business case, made the build-vs-buy recommendation, and drove adoption. Saves roughly 1,200 hours per year.</p>
+        <p>Product vision and rollout for an internal AI agent (Pega Knowledge Buddy) handling 1,000+ daily questions from customer service reps. Built the business case, made the build-vs-buy recommendation, and ran the adoption push. Saves roughly 1,200 hours a year.</p>
       </article>
 
       <article class="case-card">
@@ -133,7 +142,7 @@
           <div class="org">GreenFi <span style="color:var(--stone);font-size:14px;">(formerly Aspiration Financial)</span></div>
           <span class="role">Technical Program Manager</span>
         </div>
-        <div class="summary">Led integration with Galileo's core banking APIs to automate card replacement — now processing tens of thousands of cards per year. Shipped 14 features across internal operations and customer-facing tools, exceeding efficiency-gain projections by 55% on the most recent. Negotiated a standing 15% engineering allocation for technical debt in a regulated fintech environment.</div>
+        <div class="summary">Led integration with Galileo's core banking APIs to automate card replacement — now processing tens of thousands of cards per year. Shipped 14 features across internal operations and customer-facing tools; the most recent beat its projected efficiency gains by 55%. Negotiated a standing 15% engineering allocation for technical debt in a regulated fintech environment.</div>
         <div class="when">Jan 2022 –<br/>Oct 2023</div>
       </div>
 
@@ -142,7 +151,7 @@
           <div class="org">GreenFi</div>
           <span class="role">Customer Engagement Manager</span>
         </div>
-        <div class="summary">Led an operations team of up to 40 during a period of crisis, increasing per-agent output by 68% through targeted coaching and identification of product gaps fed back into the roadmap. Detected two fraud attacks before the dedicated fraud team — a retrospective estimated this prevented millions in losses.</div>
+        <div class="summary">Led an operations team of up to 40 through a cash-flow crunch: new headcount wasn't approvable and tooling investments wouldn't pay off in time, so the ask was more work, faster, on overtime alone. Per-agent output rose 68% through targeted coaching and product gaps fed back into the roadmap. Also caught two fraud attacks before the dedicated fraud team did — a retrospective estimated millions in prevented losses.</div>
         <div class="when">Oct 2020 –<br/>Jan 2022</div>
       </div>
 
@@ -151,7 +160,7 @@
           <div class="org">GreenFi</div>
           <span class="role">CX Team Lead &amp; Representative</span>
         </div>
-        <div class="summary">Developed <em>Impact Facts</em>, a CX differentiator that drove a 10% lift in sales and retention.</div>
+        <div class="summary">Developed <em>Impact Facts</em>, a customer-facing program that lifted sales and retention by 10%.</div>
         <div class="when">Feb 2019 –<br/>Oct 2020</div>
       </div>
 
