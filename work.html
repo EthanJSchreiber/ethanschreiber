@@ -1,191 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Selected work by Ethan Schreiber — internal platforms, API decoupling, and customer-service tooling at First Tech Federal Credit Union, GreenFi, and others." />
-  <title>Work — Ethan Schreiber</title>
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Selected work by Ethan Schreiber &mdash; internal platforms, API decoupling, and customer-service tooling at First Tech Federal Credit Union, GreenFi, and others.">
+<title>Work &mdash; Ethan Schreiber</title>
 </head>
-<body>
+<body bgcolor="#c0c0c0" text="#000000" link="#0000ee" vlink="#551a8b">
+<center>
 
-<div class="topbar">
-  <div class="wrap">
-    <div class="row">
-      <div><span class="dot"></span>Ethan Schreiber</div>
-      <div>Product · Platforms · APIs</div>
-      <div>Austin, TX</div>
-    </div>
-  </div>
-</div>
+<table border="3" cellpadding="12" cellspacing="0" width="640" bgcolor="#ffffe0">
+<tr><td align="center">
+<font face="Times New Roman" size="6"><b>Work</b></font><br>
+<font face="Times New Roman" size="3">Platforms, APIs, and integrations &mdash; current and recent</font>
+</td></tr>
+</table>
 
-<nav class="site-nav">
-  <div class="wrap">
-    <div class="row">
-      <a href="/" class="logo">Ethan Schreiber<span class="dot">.</span></a>
-      <ul>
-        <li class="active"><a href="/work.html">Work</a></li>
-        <li><a href="/projects.html">Personal Projects</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<br>
 
-<header class="page-head">
-  <div class="wrap">
-    <div class="row">
-      <div class="num">§ Work</div>
-      <div>
-        <h1>Work</h1>
-        <p class="lede">Platforms, APIs, and integrations — current and recent.</p>
-      </div>
-    </div>
-  </div>
-</header>
+<font face="Times New Roman" size="3">
+[ <a href="index.html">home</a> ]
+<b>[ work ]</b>
+[ <a href="projects.html">projects</a> ]
+[ <a href="about.html">about</a> ]
+[ <a href="contact.html">contact</a> ]
+</font>
 
-<section class="surface-tea">
-  <div class="wrap">
-    <div class="sec-head">
-      <div class="sec-num">§ 01 · Current</div>
-      <div class="sec-title">
-        <h2>First Tech Federal Credit Union</h2>
-        <p>Senior Technical Product Manager · October 2023 – Present. Internal platforms and integrations across Fiserv, Mastercard, Alkami, Velera, and OSG.</p>
-      </div>
-    </div>
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+<tr><td>
 
-    <div class="case-grid">
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">API Strategy</span>
-          <span class="tag">Versioning</span>
-        </div>
-        <h3>Decoupling legacy APIs</h3>
-        <p>Led decoupling of legacy APIs serving both member-facing and employee-facing use cases. Identified which capabilities were safe to expose externally (read-only account data) versus internal-only (account closure, sensitive write actions), then set the versioning and rollout sequence so internal tools could ship independently of member-facing surfaces.</p>
-      </article>
+<hr size="2" noshade>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">Tool Architecture</span>
-          <span class="tag">Business Case</span>
-        </div>
-        <h3>20,000 hours of internal time recovered</h3>
-        <p>Traced the loss to how the customer-service tools were built: manual handoffs, redundant approvals, and missing integrations. Quantified the cost, built the business case, and now lead the redesign as a top organizational priority — automating handoffs, connecting card processing and core banking directly, and simplifying the screens reps work in.</p>
-      </article>
+<font face="Times New Roman" size="4"><b>First Tech Federal Credit Union</b></font><br>
+<font face="Times New Roman" size="2"><i>Senior Technical Product Manager &middot; October 2023 &ndash; present &middot; internal platforms and integrations across Fiserv, Mastercard, Alkami, Velera, and OSG</i></font>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">Performance</span>
-          <span class="tag">APIs</span>
-        </div>
-        <h3>API performance remediation</h3>
-        <p>Alongside the tooling redesign, investigated why core internal APIs were slow — over-fetching, redundant calls, sequential requests, unoptimized database queries. Quantified the impact and secured leadership prioritization for the fixes.</p>
-      </article>
+<font face="Times New Roman" size="3">
+<p><b>Decoupling legacy APIs.</b> Led decoupling of legacy APIs serving both member-facing and employee-facing use cases. Identified which capabilities were safe to expose externally (read-only account data) versus internal-only (account closure, sensitive write actions), then set the versioning and rollout sequence so internal tools could ship independently of member-facing surfaces.</p>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">Write APIs</span>
-          <span class="tag">Vendor Orchestration</span>
-        </div>
-        <h3>Member-servicing write APIs</h3>
-        <p>Defined requirements for the write APIs employees use to act on a member's behalf — closing accounts, issuing cards, handling disputes, resetting passwords and lockouts, retrieving documents — across Fiserv, Alkami, Velera, Mastercard, and OSG. Coordinated delivery across onshore, offshore low-code, and vendor engineering teams. Security is layered: trusted-source IP allowlisting, token-based authentication, and rate limiting.</p>
-      </article>
+<p><b>20,000 hours of internal time recovered.</b> Traced the loss to how the customer-service tools were built: manual handoffs, redundant approvals, and missing integrations. Quantified the cost, built the business case, and now lead the redesign as a top organizational priority &mdash; automating handoffs, connecting card processing and core banking directly, and simplifying the screens reps work in.</p>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">AI · Agents</span>
-          <span class="tag">Build vs Buy</span>
-        </div>
-        <h3>Internal AI agent, 1,000+ daily questions</h3>
-        <p>Product vision and rollout for an internal AI agent (Pega Knowledge Buddy) handling 1,000+ daily questions from customer service reps. Built the business case, made the build-vs-buy recommendation, and ran the adoption push. Saves roughly 1,200 hours a year.</p>
-      </article>
+<p><b>API performance remediation.</b> Alongside the tooling redesign, investigated why core internal APIs were slow &mdash; over-fetching, redundant calls, sequential requests, unoptimized database queries. Quantified the impact and secured leadership prioritization for the fixes.</p>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">Delivery</span>
-          <span class="tag">Enterprise Priority</span>
-        </div>
-        <h3>Simplification — 51 features in 2025</h3>
-        <p>Led Simplification, a top enterprise priority communicated regularly by the CEO. Delivered 51 features across the year — matching the total output of the rest of the PM department combined.</p>
-      </article>
+<p><b>Member-servicing write APIs.</b> Defined requirements for the write APIs employees use to act on a member's behalf &mdash; closing accounts, issuing cards, handling disputes, resetting passwords and lockouts, retrieving documents &mdash; across Fiserv, Alkami, Velera, Mastercard, and OSG. Coordinated delivery across onshore, offshore low-code, and vendor engineering teams. Security is layered: trusted-source IP allowlisting, token-based authentication, and rate limiting.</p>
 
-      <article class="case-card">
-        <div class="tag-row">
-          <span class="tag">Operations</span>
-          <span class="tag">On-call</span>
-        </div>
-        <h3>Production incident response</h3>
-        <p>On-call experience firefighting production incidents at the layer where outages can mean a member can't access their funds.</p>
-      </article>
-    </div>
-  </div>
-</section>
+<p><b>Internal AI agent, 1,000+ daily questions.</b> Product vision and rollout for an internal AI agent (Pega Knowledge Buddy) handling 1,000+ daily questions from customer service reps. Built the business case, made the build-vs-buy recommendation, and ran the adoption push. Saves roughly 1,200 hours a year.</p>
 
-<section class="surface-soft">
-  <div class="wrap">
-    <div class="sec-head">
-      <div class="sec-num">§ 02 · Earlier</div>
-      <div class="sec-title">
-        <h2>Prior roles</h2>
-        <p>Fintech operations, integration work, and customer-facing roles before product.</p>
-      </div>
-    </div>
+<p><font color="#aa0000" size="2"><b>NEW</b></font> <b>Simplification &mdash; 51 features in 2025.</b> Led Simplification, a top enterprise priority communicated regularly by the CEO. Delivered 51 features across the year &mdash; matching the total output of the rest of the PM department combined.</p>
 
-    <div class="line-list">
-      <div class="line-item">
-        <div>
-          <div class="org">GreenFi <span style="color:var(--stone);font-size:14px;">(formerly Aspiration Financial)</span></div>
-          <span class="role">Technical Program Manager</span>
-        </div>
-        <div class="summary">Led integration with Galileo's core banking APIs to automate card replacement — now processing tens of thousands of cards per year. Shipped 14 features across internal operations and customer-facing tools; the most recent beat its projected efficiency gains by 55%. Negotiated a standing 15% engineering allocation for technical debt in a regulated fintech environment.</div>
-        <div class="when">Jan 2022 –<br/>Oct 2023</div>
-      </div>
+<p><b>Production incident response.</b> On-call experience firefighting production incidents at the layer where outages can mean a member can't access their funds.</p>
+</font>
 
-      <div class="line-item">
-        <div>
-          <div class="org">GreenFi</div>
-          <span class="role">Customer Engagement Manager</span>
-        </div>
-        <div class="summary">Led an operations team of up to 40 through a cash-flow crunch: new headcount wasn't approvable and tooling investments wouldn't pay off in time, so the ask was more work, faster, on overtime alone. Per-agent output rose 68% through targeted coaching and product gaps fed back into the roadmap. Also caught two fraud attacks before the dedicated fraud team did — a retrospective estimated millions in prevented losses.</div>
-        <div class="when">Oct 2020 –<br/>Jan 2022</div>
-      </div>
+<hr size="2" noshade>
 
-      <div class="line-item">
-        <div>
-          <div class="org">GreenFi</div>
-          <span class="role">CX Team Lead &amp; Representative</span>
-        </div>
-        <div class="summary">Developed <em>Impact Facts</em>, a customer-facing program that lifted sales and retention by 10%.</div>
-        <div class="when">Feb 2019 –<br/>Oct 2020</div>
-      </div>
+<font face="Times New Roman" size="4"><b>Prior roles</b></font><br>
+<font face="Times New Roman" size="2"><i>Fintech operations, integration work, and customer-facing roles before product</i></font>
 
-      <div class="line-item">
-        <div>
-          <div class="org">Liberty Mutual Insurance</div>
-          <span class="role">Claims Resolution Specialist II</span>
-        </div>
-        <div class="summary">Licensed insurance adjuster across 35+ states. Negotiated $100K+ in annual vendor cost savings.</div>
-        <div class="when">Nov 2016 –<br/>Apr 2018</div>
-      </div>
-    </div>
-  </div>
-</section>
+<font face="Times New Roman" size="3">
+<p><b>GreenFi</b> (formerly Aspiration Financial)<br>
+<i>Technical Program Manager &middot; January 2022 &ndash; October 2023</i><br>
+Led integration with Galileo's core banking APIs to automate card replacement &mdash; now processing tens of thousands of cards per year. Shipped 14 features across internal operations and customer-facing tools; the most recent beat its projected efficiency gains by 55%. Negotiated a standing 15% engineering allocation for technical debt in a regulated fintech environment.</p>
 
-<footer class="site-foot">
-  <div class="wrap">
-    <div class="seal">— ethanjschreiber.com —</div>
-    <div class="row">
-      <div>Austin, TX</div>
-      <div><a href="mailto:ethanschreiber@gmail.com">ethanschreiber@gmail.com</a></div>
-      <div><a href="https://www.linkedin.com/in/ethanjamesschreiber/" target="_blank" rel="noopener">LinkedIn</a></div>
-    </div>
-  </div>
-</footer>
+<p><b>GreenFi</b><br>
+<i>Customer Engagement Manager &middot; October 2020 &ndash; January 2022</i><br>
+Led an operations team of up to 40 through a cash-flow crunch: new headcount wasn't approvable and tooling investments wouldn't pay off in time, so the ask was more work, faster, on overtime alone. Per-agent output rose 68% through targeted coaching and product gaps fed back into the roadmap. Also caught two fraud attacks before the dedicated fraud team did &mdash; a retrospective estimated millions in prevented losses.</p>
 
+<p><b>GreenFi</b><br>
+<i>CX Team Lead &amp; Representative &middot; February 2019 &ndash; October 2020</i><br>
+Developed <i>Impact Facts</i>, a customer-facing program that lifted sales and retention by 10%.</p>
+
+<p><b>Liberty Mutual Insurance</b><br>
+<i>Claims Resolution Specialist II &middot; November 2016 &ndash; April 2018</i><br>
+Licensed insurance adjuster across 35+ states. Negotiated $100K+ in annual vendor cost savings.</p>
+</font>
+
+<hr size="2" noshade>
+
+<font face="Times New Roman" size="2" color="#555555">
+ethanjschreiber.com &mdash; Austin, TX<br>
+[ <a href="mailto:ethanschreiber@gmail.com">email</a> ]
+[ <a href="https://www.linkedin.com/in/ethanjamesschreiber/">linkedin</a> ]<br>
+<i>Best viewed in Netscape Navigator 4.0 at 800&times;600. This site is Y2K compliant. Last updated August 9, 2026.</i>
+</font>
+
+</td></tr>
+</table>
+
+</center>
 </body>
 </html>
