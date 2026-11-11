@@ -60,26 +60,6 @@ a { color: inherit; }
 .surface-tea, .surface-soft { --border: rgba(20,30,20,0.14); }
 .surface-forest, .surface-night { --border: rgba(239,233,218,0.18); }
 
-/* ─── Topbar ───────────────────────────────────────────── */
-.topbar {
-  background: var(--forest-night);
-  color: var(--sage-pale);
-  padding: 14px 0;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.topbar .row { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-.topbar .dot {
-  display: inline-block;
-  width: 6px; height: 6px;
-  background: var(--amber-soft);
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
 /* ─── Site nav ─────────────────────────────────────────── */
 .site-nav {
   background: var(--tea);
@@ -211,19 +191,6 @@ a { color: inherit; }
   padding: 88px 0 56px;
   border-bottom: 1px solid rgba(20,30,20,0.1);
 }
-.page-head .row {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 40px;
-  align-items: baseline;
-}
-.page-head .num {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  color: var(--amber);
-  padding-top: 14px;
-}
 .page-head h1 {
   font-family: var(--font-display);
   font-weight: 300;
@@ -251,19 +218,11 @@ section + section { border-top: 1px solid var(--border); }
 
 .sec-head {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 1fr;
   gap: 40px;
   align-items: baseline;
   margin-bottom: 64px;
 }
-.sec-num {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  color: var(--amber);
-  padding-top: 14px;
-}
-.surface-forest .sec-num, .surface-night .sec-num { color: var(--amber-soft); }
 
 .sec-title h2 {
   font-family: var(--font-display);
@@ -539,16 +498,9 @@ section + section { border-top: 1px solid var(--border); }
 /* ─── Home: intro + work teaser ────────────────────────── */
 .intro-grid {
   display: grid;
-  grid-template-columns: 100px 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: start;
-}
-.intro-grid .num {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  color: var(--amber);
-  padding-top: 14px;
 }
 .intro-grid .pull {
   font-family: var(--font-display);
@@ -754,7 +706,6 @@ footer.site-foot a:hover { border-bottom-color: var(--sage); }
   .site-nav ul { gap: 20px; }
   .hero { padding: 96px 0 110px; }
   .corner-mark { display: none; }
-  .page-head .row, .sec-head { grid-template-columns: 1fr; gap: 16px; }
   .case-grid { grid-template-columns: 1fr; }
   .feature-project { grid-template-columns: 1fr; gap: 40px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
